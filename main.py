@@ -35,7 +35,9 @@ if __name__ == '__main__':
         file_path = os.path.join(os.getcwd(), f'data/fold{fold}', file_name)
         
         ## loading audio file
-        audio, sr = librosa.load(file_path, res_type='kaiser_fast')
+        audio, sr = librosa.load(file_path,
+                                 sr=8000,
+                                 res_type='kaiser_fast')
 
         ## extracting features from the audio using MFCC
         mfcc_feature = librosa.feature.mfcc(y=audio,

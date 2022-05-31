@@ -3,7 +3,7 @@
 ## How to run
 
 ```bash
-conda create --name env --file environment.yml & conda activate env
+conda create --name env --file environment.yml && conda activate env
 ```
 
 ```python

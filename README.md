@@ -1,6 +1,12 @@
-# Urban Sound Project
+## Urban Sound Project
 
-## How to run
+Using PyTorch to create a Multi Layer Perceptron (Feed Forward Neural Network) to classify Urban Sound using the Urban Sound 8k dataset.
+
+### Prerequsites
+
+Make sure to store **ONLY** the 10 sub-folders and the UrbanSound8K.csv within a folder called **data**.
+
+### How to run
 
 ```bash
 conda create --name env --file environment.yml && conda activate env
